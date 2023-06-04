@@ -29,9 +29,3 @@ npm run build
 ```
 npm run lint
 
-* [VueCli](https://cli.vuejs.org/) - La Cli consiste en un paquete npm y que proporciona el comando vue en su terminal.
-* [VueJs](https://vuejs.org/) - Vue.js es un framework de JavaScript de código abierto para la construcción de interfaces de usuario y aplicaciones de una sola página.
-
-## Autores ✒️
-
-* **Aldair Reyes Sanchez**
