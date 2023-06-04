@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-itss {
+  max-width: 160px; 
+  height: auto; 
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.degradado-home {
+  background: rgb(47, 174, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 174, 180, 1) 6%,
+    rgba(0, 129, 180, 1) 100%
+  );
+}
+
+.title-home {
+  -webkit-text-stroke: 2px #0081b4;
+  color: white;
+  font-weight: bold;
+}
+
+@layer base {
+  html {
+    font-family: "Inter", "sans-serif";
+  }
+  .content-g {
+    @apply pt-32 md:pt-40 pb-20 md:pb-20;
+  }
+  .btn-main {
+    @apply rounded-md 
+        px-8 
+        lg:px-10 
+        py-2 
+        h-[44px]
+        bg-main 
+        text-white 
+        font-btn;
+  }
+  .btn-action {
+    @apply rounded-full
+        h-[50px]
+        w-[50px]
+        flex
+        items-center
+        justify-center
+        transition-colors;
+  }
+  .link-main {
+    @apply inline-flex
+        items-center
+        text-center
+        rounded-md 
+        px-8 
+        lg:px-10 
+        py-2 
+        h-[44px]
+        text-white 
+        font-btn;
+  }
+  .btn-add {
+    @apply bg-add
+        hover:bg-tertiary;
+  }
+
+  .btn-remove {
+    @apply bg-redme
+        hover:bg-tertiary;
+  }
+
+  .btn-user {
+    @apply bg-main
+        hover:bg-secondary;
+  }
+}
